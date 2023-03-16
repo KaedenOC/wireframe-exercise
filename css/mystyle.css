@@ -22,7 +22,6 @@ a {
 main {
     max-width: 960px;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 section {
@@ -35,3 +34,38 @@ section {
     margin-right: 15px;
 }
 
+.section-container {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+    /* justify-content: space-between; */
+}
+
+.section-container h2 {
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.button {
+    width: 50%;
+    height: 10%;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: rgba(0, 0, 255, 0.329);
+    transition: 350ms;
+}
+
+/* .section-container p {
+
+} */
+
+footer {
+    max-width: 960px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.295);
+    margin-bottom: 10px;
+    
+}
