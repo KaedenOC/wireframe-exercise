@@ -44,22 +44,28 @@ section {
 
 .section-container h2 {
     margin-bottom: 30px;
-    padding-left: 10px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.section-container p {
+    margin-left: 30px;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 .button {
     width: 50%;
     height: 10%;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 .button:hover {
     background-color: rgba(0, 0, 255, 0.329);
     transition: 350ms;
 }
 
-/* .section-container p {
-
-} */
 
 footer {
     max-width: 960px;
